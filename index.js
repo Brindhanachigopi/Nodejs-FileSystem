@@ -5,6 +5,10 @@ import { format } from "date-fns";
 const app = express();
 const PORT = 4000;
 
+app.get('/', (request, response) => {
+    response.status(200).json("Have a Nice Day!")
+})
+
 let currentDay = format(new Date(), "dd-mm-yyyy-hh-mm-ss");
 //console.log(("currentDay", currentDay));
 const filePath = `Date-Time/${currentDay}.txt`;
