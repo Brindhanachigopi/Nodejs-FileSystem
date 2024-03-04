@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-filesystem",
+  "version": "1.0.0",
+  "description": "defalut",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "file",
+    "system"
+  ],
+  "author": "learner",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.3.1",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}
