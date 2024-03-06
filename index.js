@@ -9,7 +9,7 @@ app.get('/', (request, response) => {
     response.status(200).json("Have a Nice Day!")
 })
 
-let currentDay = format(new Date(), "dd-mm-yyyy-hh-mm-ss");
+let currentDay = format(new Date(), "dd-MM-yyyy-hh-mm-ss");
 //console.log(("currentDay", currentDay));
 const filePath = `Date-Time/${currentDay}.txt`;
 
